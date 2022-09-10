@@ -1,0 +1,25 @@
+prefix: "&8(&bHoxija&8)&r"
+
+errors:
+  no-permission: "%prefix%&7: Permesso negato."
+  only-player: "%prefix%&7: Comando eseguibile solo da un giocatore."
+  cooldown: "%prefix%&7: Aspetta prima di riusarlo (&c%cooldown%&7)."
+  give-usage: "%prefix%&7: Usa /playerswap give [player]"
+  target-offline: "%prefix%&7: Il giocatore non esiste o è offline."
+  invalid-value: "%prefix%&7: Valore non valido."
+
+info:
+  help:
+    - "&b/playerswap get"
+    - "&b/playerswap give [player]"
+    - "&b/playerswap reload"
+  swapper-get: "%prefix%&7: Hai ricevuto lo swapper"
+  swapper-give: "%prefix%7: Hai dato &c%amount%&7 swapper a &c%target_name%"
+  reload: "%prefix%&7: Configurazione e lang ricaricati."
+  shooter-swap: "%prefix%&7: Ti sei scambiato di posizione con &c%target_name%"
+  target-swapped: "%prefix%&7: Sei stato scambiato di posizione con &c%shooter_name%"
+
+item:
+  name: "&f&lSwapper"
+  lore:
+    - "&7Lancialo verso un nemico per scambiarvi le posizioni."

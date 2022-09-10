@@ -1,0 +1,25 @@
+prefix: "&8(&bHoxija&8)&r"
+
+errors:
+  no-permission: "%prefix%&7: You don't have permission to do that."
+  only-player: "%prefix%&7: Command executable only by a player."
+  cooldown: "%prefix%&7: Wait before use again the swapper (&c%cooldown%&7)."
+  give-usage: "%prefix%&7: Use /playerswap give [player]"
+  target-offline: "%prefix%&7: This player does not exits or is offline."
+  invalid-value: "%prefix%&7: Invalid value."
+
+info:
+  help:
+    - "&b/playerswap get"
+    - "&b/playerswap give [player]"
+    - "&b/playerswap reload"
+  swapper-get: "%prefix%&7: You got the swapper"
+  swapper-give: "%prefix%7: You gave &c%amount%&7 swapper to &c%target_name%"
+  reload: "%prefix%&7: Config and lang reloaded."
+  shooter-swap: "%prefix%&7: You swapped positions with &c%target_name%"
+  target-swapped: "%prefix%&7: You have been swapped with &c%shooter_name%"
+
+item:
+  name: "&f&lSwapper"
+  lore:
+    - "&7Throw and hit your target to swap positions."

@@ -1,0 +1,9 @@
+name: PlayerSwap
+main: it.ivirus.playerswap.PlayerSwap
+version: ${project.version}
+author: iVirus
+api-version: 1.16
+commands:
+  playerswap:
+    description: main command
+    aliases: [pswap]
